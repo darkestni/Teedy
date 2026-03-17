@@ -12,7 +12,8 @@ This document prepares the deliverables requested in Practice 3:
 ## Assumptions
 
 - A live partner interview was not available while preparing this draft, so the end-user feedback below is synthesized from realistic Teedy usage pain points.
-- The local repository still points to the course template repository instead of a personal GitHub repository, so the GitHub Projects board itself must be created after the repository remote is updated and authentication is available.
+- A personal fork is now available at `darkestni/Teedy`, and the related milestone plus issue cards have been created there.
+- Depending on the GitHub account permissions available during setup, the final GitHub Projects board layout may still need to be arranged manually in the web UI.
 
 ## End-User Feature Proposals
 
