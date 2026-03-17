@@ -1,0 +1,19 @@
+column,item_id,item_type,title,owner,estimate,notes
+User Stories,US1,story,Saved Search Alerts,,,"As a compliance coordinator, I want to save a search and receive notifications when new documents match it, so that I can monitor important document categories without rerunning the same search every day."
+User Stories,US2,story,Metadata Templates for Batch Uploads,,,"As an archive assistant, I want reusable metadata templates that I can apply to a batch of documents, so that I can upload large document sets quickly and consistently."
+Actionable Tasks,US1-T1,task,Confirm saved-search fields and alert rules,Product Owner,0.5 day,Acceptance criteria and field list approved
+Actionable Tasks,US1-T2,task,Add saved-search CRUD API,Backend Developer,1 day,CRUD endpoints tested for owner isolation
+Actionable Tasks,US1-T3,task,Implement matching and notification creation,Backend Developer,1 day,Matching document creates one notification
+Actionable Tasks,US1-T4,task,Build saved-search management UI,Frontend Developer,1 day,User can create edit delete in browser
+Actionable Tasks,US1-T5,task,Add notification list and document deep link,Frontend Developer,0.5 day,Notification opens matching document
+Actionable Tasks,US1-T6,task,Write integration and smoke tests,QA Engineer,0.5 day,Automated tests cover happy path
+Actionable Tasks,US1-T7,task,Update saved-search documentation,Technical Writer,0.5 day,Quick-start guide added
+Actionable Tasks,US1-T8,task,Review privacy and duplicate-notification behavior,Reviewer,0.5 day,Review checklist signed off
+Actionable Tasks,US2-T1,task,Confirm template field scope and validation rules,Product Owner,0.5 day,Approved field matrix exists
+Actionable Tasks,US2-T2,task,Add metadata template CRUD API,Backend Developer,1 day,Template CRUD endpoints tested
+Actionable Tasks,US2-T3,task,Implement bulk apply service logic,Backend Developer,1 day,Bulk update succeeds for selected docs
+Actionable Tasks,US2-T4,task,Build metadata template management page,Frontend Developer,1 day,User can manage templates in browser
+Actionable Tasks,US2-T5,task,Add bulk apply action in document list,Frontend Developer,1 day,Template can be applied to multiple docs
+Actionable Tasks,US2-T6,task,Add validation feedback for bulk updates,Frontend Developer,0.5 day,Validation errors are visible and safe
+Actionable Tasks,US2-T7,task,Write API and UI tests for templates,QA Engineer,0.5 day,Success and error paths covered
+Actionable Tasks,US2-T8,task,Document batch upload workflow,Technical Writer,0.5 day,Help example added

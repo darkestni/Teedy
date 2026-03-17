@@ -6,6 +6,7 @@
 /*/target
 /*/build
 /out
+/data
 /.idea
 /.project
 *.iml
@@ -16,6 +17,8 @@ teedy-importer-macos
 teedy-importer-win.exe
 docs/*
 !docs/.gitkeep
+!docs/practice3-requirement-analysis.md
+!docs/practice3-project-board-seed.csv
 
 #macos
 .DS_Store
